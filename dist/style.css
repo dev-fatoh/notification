@@ -1,0 +1,145 @@
+@font-face {
+  font-family: 'PlusJakartaSans-ExtraBold';
+  src: url('../assets/fonts/static/PlusJakartaSans-ExtraBold.ttf');
+}
+@font-face {
+  font-family: 'PlusJakartaSans-Medium';
+  src: url('../assets/fonts/static/PlusJakartaSans-Medium.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  max-width: 1440px;
+
+  font-family: 'PlusJakartaSans-ExtraBold', sans-serif;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+main {
+  width: 90%;
+  margin: auto;
+  background: #fff;
+  padding: 0.5rem;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.notificate {
+  display: flex;
+  align-items: center;
+}
+.notificate h1 {
+  font-size: 1.2rem;
+  margin-right: 0.8rem;
+  font-weight: 800;
+}
+.count {
+  font-size: 1rem;
+  padding: 0.2rem 0.8rem;
+
+  background-color: hsl(219, 85%, 26%);
+  color: #fff;
+  border-radius: 7px;
+  font-weight: 800;
+}
+#btn {
+  border: 0;
+  background: transparent;
+  font-size: 1rem;
+  font-weight: 500;
+  color: hsl(219, 85%, 26%);
+}
+#btn:hover {
+  color: hsl(219, 14%, 63%);
+}
+li {
+  width: 100%;
+  padding: 0.6rem;
+  margin: 1rem 0;
+  display: flex;
+  font-size: small;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.read {
+  background-color: none;
+}
+
+.unread {
+  background-color: hsl(210, 60%, 98%);
+}
+
+li img {
+  margin-right: 10px;
+  float: left;
+}
+.note {
+  display: flex;
+  flex-direction: column;
+}
+.user-name {
+  margin-right: 10px;
+  color: #000;
+  font-family: 'PlusJakartaSans-ExtraBold';
+  text-transform: capitalize;
+}
+.user-name:hover {
+  color: hsl(219, 85%, 26%);
+}
+li p {
+  color: hsl(219, 14%, 63%);
+  font-family: 'PlusJakartaSans-Medium';
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+.active {
+  width: 10px;
+  height: 10px;
+  background-color: hsl(1, 90%, 64%);
+  display: inline-block;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+.hidden {
+  display: none;
+}
+.user-event {
+  margin-left: 5px;
+  color: hsl(219, 12%, 42%);
+  font-family: 'PlusJakartaSans-ExtraBold';
+  font-size: 0.8rem;
+}
+.time {
+  color: hsl(219, 14%, 63%);
+  font-family: 'PlusJakartaSans-Medium';
+  margin-top: 0.5rem;
+}
+.message {
+  padding: 1rem;
+  margin: 1rem 0;
+  border: 1px solid #000;
+  font-family: 'PlusJakartaSans-Medium';
+  color: hsl(219, 14%, 63%);
+  font-weight: 500;
+  border-radius: 5px;
+}
+.message:hover {
+  background-color: hsl(205, 33%, 90%);
+  border: none;
+}
+.right {
+  justify-self: end;
+  margin-left: 0.5rem;
+}

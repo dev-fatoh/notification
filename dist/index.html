@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Notifications page</title>
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <!--header-->
+      <header>
+        <div class="notificate">
+          <h1>Notifications</h1>
+          <span class="count"></span>
+        </div>
+        <button id="btn">Mark all as read</button>
+      </header>
+      <!--header end-->
+      <ul>
+        <li class="unread">
+          <img
+            src="../assets/images/avatar-mark-webber.webp"
+            alt="mark-img"
+            width="50"
+            height="50"
+          />
+          <div class="note">
+            <p>
+              <strong class="user-name mark">mark webber</strong>
+
+              reacted to your recent post
+              <a href="#" class="user-event">My first tournament today ! </a>
+              <span class="active"></span>
+            </p>
+
+            <h4 class="time">1m ago</h4>
+          </div>
+        </li>
+
+        <li class="unread">
+          <img
+            src="../assets/images/avatar-angela-gray.webp"
+            alt="mark-img"
+            width="50"
+            height="50"
+          />
+          <div class="note">
+            <p>
+              <strong class="user-name angela">Angela Gray</strong>
+
+              followed you
+
+              <span class="active"></span>
+            </p>
+
+            <h4 class="time">5m ago</h4>
+          </div>
+        </li>
+
+        <li class="unread">
+          <img
+            src="../assets/images/avatar-jacob-thompson.webp"
+            alt="jacob-img"
+            width="50"
+            height="50"
+          />
+          <div class="note">
+            <p>
+              <strong class="user-name jacob">jacob Thompson</strong>
+
+              has joined your group
+              <a href="#" class="user-event">Chess Club </a>
+              <span class="active"></span>
+            </p>
+
+            <h4 class="time">1day ago</h4>
+          </div>
+        </li>
+
+        <li>
+          <img
+            src="../assets/images/avatar-rizky-hasanuddin.webp"
+            alt="rizky-img"
+            width="50"
+            height="50"
+          />
+          <div class="note">
+            <p>
+              <strong class="user-name rizky">Rizky Hasanuddin</strong>
+
+              sent you a private message
+            </p>
+
+            <h4 class="time">5days ago</h4>
+            <p class="message">
+              Hello, thanks for setting up the Chess Club. I've been a member
+              for a few weeks now and I'm already having lots of fun and
+              improving my game.
+            </p>
+          </div>
+        </li>
+
+        <li>
+          <img
+            src="../assets/images/avatar-kimberly-smith.webp"
+            alt="kimberly-img"
+            width="50"
+            height="50"
+          />
+          <div class="note">
+            <p>
+              <strong class="user-name kimberly">Kimberly Smith</strong>
+
+              commented on your picture
+            </p>
+
+            <h4 class="time">1week ago</h4>
+          </div>
+
+          <a href="#" class="user-event right"
+            ><img
+              src="../assets/images/image-chess.webp"
+              alt="chess img"
+              width="35"
+              height="35"
+          /></a>
+        </li>
+        <li>
+          <img
+            src="../assets/images/avatar-nathan-peterson.webp"
+            alt="nathan-img"
+            width="50"
+            height="50"
+          />
+          <div class="note">
+            <p>
+              <strong class="user-name nathan">Nathan Peterson</strong>
+
+              reacted to your recent post
+              <a href="#" class="user-event"
+                >5 end-game strategiesto increase your win rate</a
+              >
+            </p>
+
+            <h4 class="time">2weeks ago</h4>
+          </div>
+        </li>
+        <li>
+          <img
+            src="../assets/images/avatar-anna-kim.webp"
+            alt="anna-img"
+            width="50"
+            height="50"
+          />
+          <div class="note">
+            <p>
+              <strong class="user-name anna">Anna Kim</strong>
+
+              left the group
+              <a href="#" class="user-event">Chess Club</a>
+            </p>
+
+            <h4 class="time">2weeks ago</h4>
+          </div>
+        </li>
+      </ul>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">dev-fatoh</a>.
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
