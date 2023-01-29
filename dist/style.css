@@ -12,6 +12,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  font-size: 62.5%;
+}
 body {
   width: 100%;
   max-width: 1440px;
@@ -28,7 +31,8 @@ main {
   width: 90%;
   margin: auto;
   background: #fff;
-  padding: 0.5rem;
+  padding: 0.4rem;
+  overflow: hidden;
 }
 header {
   display: flex;
@@ -40,12 +44,12 @@ header {
   align-items: center;
 }
 .notificate h1 {
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   margin-right: 0.8rem;
   font-weight: 800;
 }
 .count {
-  font-size: 1rem;
+  font-size: 1.6rem;
   padding: 0.2rem 0.8rem;
 
   background-color: hsl(219, 85%, 26%);
@@ -56,7 +60,7 @@ header {
 #btn {
   border: 0;
   background: transparent;
-  font-size: 1rem;
+  font-size: 1.6rem;
   font-weight: 500;
   color: hsl(219, 85%, 26%);
 }
@@ -68,9 +72,10 @@ li {
   padding: 0.6rem;
   margin: 1rem 0;
   display: flex;
-  font-size: small;
+  font-size: medium;
   font-weight: 500;
   line-height: 1.2;
+  border-radius: 5px;
 }
 
 .read {
@@ -101,7 +106,7 @@ li img {
 li p {
   color: hsl(219, 14%, 63%);
   font-family: 'PlusJakartaSans-Medium';
-  font-size: 0.8rem;
+  font-size: 1.4rem;
   font-weight: 800;
 }
 .active {
@@ -119,12 +124,13 @@ li p {
   margin-left: 5px;
   color: hsl(219, 12%, 42%);
   font-family: 'PlusJakartaSans-ExtraBold';
-  font-size: 0.8rem;
+  font-size: 1.4rem;
 }
 .time {
   color: hsl(219, 14%, 63%);
   font-family: 'PlusJakartaSans-Medium';
-  margin-top: 0.5rem;
+  margin-top: 0.8rem;
+  font-size: 1.2rem;
 }
 .message {
   padding: 1rem;
